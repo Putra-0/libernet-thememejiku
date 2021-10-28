@@ -27,5 +27,5 @@ wget -O /www/libernet/ --no-check-certificate $url/libernet/logout.php
 wget -O /www/libernet/ --no-check-certificate $url/libernet/navbar.php
 wget -O /www/libernet/ --no-check-certificate $url/libernet/speedtest.php
 wget -O /www/libernet/ --no-check-certificate $url/libernet/system.php
-clear;echo "Install Selesai, Silahkan clear cache browser!"
+echo "Install Selesai, Silahkan clear cache browser!"
 echo "Design by Putra"
