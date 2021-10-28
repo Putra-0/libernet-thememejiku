@@ -9,9 +9,9 @@ rm /root/libernet/bin/service.sh && wget -O "/root/libernet/bin/service.sh" --no
 rm /root/libernet/system/config.json && wget -O "/root/libernet/system/config.json" --no-check-certificate $url/auto_rek/system/config.json && chmod +x /root/libernet/system/config.json -q
 rm /www/libernet/api.php && wget -O "/www/libernet/api.php" --no-check-certificate $url/main/libernet/api.php && chmod +x /www/libernet/api.php -q
 rm /www/libernet/js/index.js && wget -O "/www/libernet/js/index.js" --no-check-certificate $url/libernet/js/index.js && chmod +x /www/libernet/js/index.js -q
-wget -O /www/libernet/js/about" --no-check-certificate $url/libernet/js/about.js && chmod +x /www/libernet/js/about.js -q
-wget -O /www/libernet/js/system.js" --no-check-certificate $url/libernet/js/system.js && chmod +x /www/libernet/js/system.js -q
-wget -O /www/libernet/js/config.js" --no-check-certificate $url/libernet/js/config.js && chmod +x /www/libernet/js/config.js -q
+wget -O /www/libernet/js/about --no-check-certificate $url/libernet/js/about.js && chmod +x /www/libernet/js/about.js -q
+wget -O /www/libernet/js/system.js --no-check-certificate $url/libernet/js/system.js && chmod +x /www/libernet/js/system.js -q
+wget -O /www/libernet/js/config.js --no-check-certificate $url/libernet/js/config.js && chmod +x /www/libernet/js/config.js -q
 wget -O /www/libernet/css/login.css --no-check-certificate $url/libernet/css/login.css -q
 wget -O /www/libernet/img/background.jpg --no-check-certificate $url/libernet/img/background.jpg -q
 wget -O /www/libernet/about.php --no-check-certificate $url/libernet/about.php -q
