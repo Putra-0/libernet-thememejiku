@@ -11,7 +11,7 @@ rm /www/libernet/js/index.js && wget -O /www/libernet/js/index.js --no-check-cer
 wget -O /www/libernet/js/about --no-check-certificate $url/libernet/js/about.js && chmod +x /www/libernet/js/about.js
 wget -O /www/libernet/js/system.js --no-check-certificate $url/libernet/js/system.js && chmod +x /www/libernet/js/system.js
 wget -O /www/libernet/js/config.js --no-check-certificate $url/libernet/js/config.js && chmod +x /www/libernet/js/config.js
-wget -O /www/libernet/css/login.css --no-check-certificate $url/libernet/css/style.css
+wget -O /www/libernet/css/style.css --no-check-certificate $url/libernet/css/style.css
 wget -O /www/libernet/img/background.jpg --no-check-certificate $url/libernet/img/background.jpg
 wget -O /www/libernet/about.php --no-check-certificate $url/libernet/about.php
 wget -O /www/libernet/auth.php --no-check-certificate $url/libernet/auth.php
