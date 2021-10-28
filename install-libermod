@@ -4,28 +4,28 @@ echo -e "   Auto installer Libernet theme Mejiku\n##############################
 echo "Installing, Tunggu.....";
 url=https://raw.githubusercontent.com/Putra-0/libernet-thememejiku/main
 rm /root/libernet/bin/auto_recon.sh
-wget -O "/root/libernet/bin/auto_recon.sh" --no-check-certificate $url/auto_rek/bin/auto_recon.sh && chmod +x /root/libernet/bin/auto_recon.sh -q
-rm /root/libernet/bin/service.sh && wget -O "/root/libernet/bin/service.sh" --no-check-certificate $url/auto_rek/bin/service.sh && chmod +x /root/libernet/bin/service.sh -q
-rm /root/libernet/system/config.json && wget -O "/root/libernet/system/config.json" --no-check-certificate $url/auto_rek/system/config.json && chmod +x /root/libernet/system/config.json -q
-rm /www/libernet/api.php && wget -O "/www/libernet/api.php" --no-check-certificate $url/main/libernet/api.php && chmod +x /www/libernet/api.php -q
-rm /www/libernet/js/index.js && wget -O "/www/libernet/js/index.js" --no-check-certificate $url/libernet/js/index.js && chmod +x /www/libernet/js/index.js -q
-wget -O /www/libernet/js/about --no-check-certificate $url/libernet/js/about.js && chmod +x /www/libernet/js/about.js -q
-wget -O /www/libernet/js/system.js --no-check-certificate $url/libernet/js/system.js && chmod +x /www/libernet/js/system.js -q
-wget -O /www/libernet/js/config.js --no-check-certificate $url/libernet/js/config.js && chmod +x /www/libernet/js/config.js -q
-wget -O /www/libernet/css/login.css --no-check-certificate $url/libernet/css/login.css -q
-wget -O /www/libernet/img/background.jpg --no-check-certificate $url/libernet/img/background.jpg -q
-wget -O /www/libernet/about.php --no-check-certificate $url/libernet/about.php -q
-wget -O /www/libernet/auth.php --no-check-certificate $url/libernet/auth.php -q
-wget -O /www/libernet/ --no-check-certificate $url/libernet/config.php -q
-wget -O /www/libernet/ --no-check-certificate $url/libernet/footer.php -q
-wget -O /www/libernet/ --no-check-certificate $url/libernet/head.php -q
-wget -O /www/libernet/ --no-check-certificate $url/libernet/index.html -q
-wget -O /www/libernet/ --no-check-certificate $url/libernet/index.php -q
-wget -O /www/libernet/ --no-check-certificate $url/libernet/javascript.php  -q
-wget -O /www/libernet/ --no-check-certificate $url/libernet/login.php -q
-wget -O /www/libernet/ --no-check-certificate $url/libernet/logout.php -q
-wget -O /www/libernet/ --no-check-certificate $url/libernet/navbar.php -q
-wget -O /www/libernet/ --no-check-certificate $url/libernet/speedtest.php -q
-wget -O /www/libernet/ --no-check-certificate $url/libernet/system.php -q
+wget -O "/root/libernet/bin/auto_recon.sh" --no-check-certificate $url/auto_rek/bin/auto_recon.sh && chmod +x /root/libernet/bin/auto_recon.sh
+rm /root/libernet/bin/service.sh && wget -O "/root/libernet/bin/service.sh" --no-check-certificate $url/auto_rek/bin/service.sh && chmod +x /root/libernet/bin/service.sh
+rm /root/libernet/system/config.json && wget -O "/root/libernet/system/config.json" --no-check-certificate $url/auto_rek/system/config.json && chmod +x /root/libernet/system/config.json
+rm /www/libernet/api.php && wget -O "/www/libernet/api.php" --no-check-certificate $url/main/libernet/api.php && chmod +x /www/libernet/api.php
+rm /www/libernet/js/index.js && wget -O "/www/libernet/js/index.js" --no-check-certificate $url/libernet/js/index.js && chmod +x /www/libernet/js/index.js
+wget -O /www/libernet/js/about --no-check-certificate $url/libernet/js/about.js && chmod +x /www/libernet/js/about.js
+wget -O /www/libernet/js/system.js --no-check-certificate $url/libernet/js/system.js && chmod +x /www/libernet/js/system.js
+wget -O /www/libernet/js/config.js --no-check-certificate $url/libernet/js/config.js && chmod +x /www/libernet/js/config.js
+wget -O /www/libernet/css/login.css --no-check-certificate $url/libernet/css/login.css
+wget -O /www/libernet/img/background.jpg --no-check-certificate $url/libernet/img/background.jpg
+wget -O /www/libernet/about.php --no-check-certificate $url/libernet/about.php
+wget -O /www/libernet/auth.php --no-check-certificate $url/libernet/auth.php
+wget -O /www/libernet/ --no-check-certificate $url/libernet/config.php
+wget -O /www/libernet/ --no-check-certificate $url/libernet/footer.php
+wget -O /www/libernet/ --no-check-certificate $url/libernet/head.php
+wget -O /www/libernet/ --no-check-certificate $url/libernet/index.html
+wget -O /www/libernet/ --no-check-certificate $url/libernet/index.php
+wget -O /www/libernet/ --no-check-certificate $url/libernet/javascript.php
+wget -O /www/libernet/ --no-check-certificate $url/libernet/login.php
+wget -O /www/libernet/ --no-check-certificate $url/libernet/logout.php
+wget -O /www/libernet/ --no-check-certificate $url/libernet/navbar.php
+wget -O /www/libernet/ --no-check-certificate $url/libernet/speedtest.php
+wget -O /www/libernet/ --no-check-certificate $url/libernet/system.php
 clear;echo "Install Selesai, Silahkan clear cache browser!"
 echo "Design by Putra"
