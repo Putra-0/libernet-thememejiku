@@ -1,20 +1,20 @@
 {
     "tunnel": {
-        "autostart": false,
+        "autostart": true,
         "dns_resolver": true,
-        "ping_loop": true,
+        "ping_loop": false,
         "mode": 2,
         "auto_recon": true,
         "profile": {
             "ssh": "",
-            "v2ray": "contabo",
-            "ssh_ssl": "global",
+            "v2ray": "",
+            "ssh_ssl": "",
             "trojan": "",
             "shadowsocks": "",
             "openvpn": ""
         }
     },
-    "server": "54.169.59.166",
+    "server": "",
     "dns_servers": [],
     "proxy_servers": [],
     "tun2socks": {
