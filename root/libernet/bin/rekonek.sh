@@ -1,3 +1,4 @@
+#!/bin/bash
 route="$(ifconfig | grep -o tun1)" 
 route2="$(route | grep -i 10.0.0.2 | head -n1 | awk '{print $2}')" 
 route3="$(netstat -plantu | grep -i 1080 | grep -i listen)" 
